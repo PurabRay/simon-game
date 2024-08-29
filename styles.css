@@ -1,0 +1,120 @@
+/* body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+} */
+body {
+  text-align: center;
+  background: linear-gradient(180deg, #001F3F, #003366, #002233);
+  font-family: 'Press Start 2P', cursive;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 5%;
+  color: #FEF2BF;
+  text-shadow: 0 0 10px #FEF2BF, 0 0 20px #FEF2BF, 0 0 30px #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  top: 20px;
+}
+
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid #000;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.7), 0 0 60px rgba(255, 255, 255, 0.5);
+}
+
+.game-over {
+  background: radial-gradient(circle, red, darkred);
+  color: #FFF;
+  opacity: 0.8;
+  border: 10px solid #FF0000;
+}
+
+.red {
+  background: radial-gradient(circle, #FF4C4C, #BF2D2D);
+}
+
+.green {
+  background: radial-gradient(circle, #4CAF50, #2D6B2D);
+}
+
+.blue {
+  background: radial-gradient(circle, #4C9BFF, #2D6BBF);
+}
+
+.yellow {
+  background: radial-gradient(circle, #F3C300, #BF9D00);
+}
+
+.pressed {
+  box-shadow: 0 0 25px #FFFFFF, 0 0 50px #FFFFFF;
+  background-color: #444;
+  transform: scale(0.9);
+}
+
